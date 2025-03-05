@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select>
+        <optgroup label="iphone">
+            <option value="16p">iphone 16 pro</option>
+            <option value="15">iphone 15</option>
+        </optgroup>
+        <optgroup label="ipad">
+        <option value="air">ipad Air</option>
+        <option value="pro">ipad Pro</option>
+        </optgroup>
+    </select>
+    <h2>可以複選,可放4個選項</h2>
+    <form action="/action_page.php">
+        <label for="cars">Choose a car:</label>
+        <select id="cars"name="cars" size="4" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
